@@ -23,15 +23,11 @@ Pydefect 是一个强大的开源 Python 库，用于基于使用 VASP
    ``pip install pydefect`` 下载它.
 
 3. 克隆仓库后，可以使用 python 包管理器 pip 安装 ``pydefect``\ 。
-   为此，请在包含 setup.py 的目录中运行此命令：
-
-``pip install ./``
+   为此，请在包含 setup.py 的目录中运行此命令：``pip install ./``
 
 如果未安装特定版本的软件包，有时会出现错误。
 在这种情况下，请尝试使用以下命令安装经过测试可与 ``pydefect``
-一起使用的确切版本：
-
-``pip install -r requirements.txt ./``
+一起使用的确切版本：``pip install -r requirements.txt ./``
 
 这将安装 requirements.txt 文件中列出的软件包版本。
 为了防止干扰其他程序，建议使用像\ `conda <https://docs.conda.io/projects/conda/en/latest/index.html>`__
